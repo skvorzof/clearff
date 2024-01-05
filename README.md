@@ -1,0 +1,2 @@
+# clearff
+Theme for Firefox
