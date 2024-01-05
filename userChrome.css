@@ -1,0 +1,39 @@
+:root {
+    --tab-border-radius: 0 !important;
+    --tab-block-margin: 0 !important;
+}
+:root[uidensity="compact"] {
+    --tab-min-height: 20px !important;
+    --tab-border-radius: 0 !important;
+    --tab-block-margin: 0 !important;
+}
+#tabbrowser-tabs:not([secondarytext-unsupported]) .tab-label-container {
+    height: initial !important; 
+}
+/* Minimal style */
+.titlebar-spacer[type="pre-tabs"] { width: 0 !important;}
+.titlebar-spacer[type="post-tabs"] { width: 30px !important; }
+#TabsToolbar {      
+  margin-bottom: 0px !important;
+  margin-top: 0px !important;
+  margin-left: 0px !important;
+  margin-right: 0px !important;
+  max-height: 36px !important;
+  background: whitesmoke;
+}
+.tab-background[selected]{
+  outline: none !important;
+  border: 2px solid transparent !important;
+  box-shadow: none !important;
+  background-clip: padding-box;
+}
+.tab-background[selected] > .tab-context-line{ margin: -5px 0 0 !important; }
+.tabbrowser-tab[selected] .tab-background {
+  content: "";
+  display: flex;
+  min-height: inherit;
+  border-radius: var(--tab-border-radius);
+  grid-area: 1/1;
+  margin-block: var(--tab-block-margin);
+  background: palegreen !important; /* active tab color*/
+}
