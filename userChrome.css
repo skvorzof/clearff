@@ -2,17 +2,12 @@
   --tab-border-radius: 0 !important;
   --tab-block-margin: 0 !important;
 }
-:root[uidensity="compact"] {
-  --tab-min-height: 38px !important;
-  --tab-border-radius: 0 !important;
-  --tab-block-margin: 0 !important;
-}
 #tabbrowser-tabs:not([secondarytext-unsupported]) .tab-label-container {
   height: initial !important; 
 }
 /* Minimal style */
 .titlebar-spacer[type="pre-tabs"] { width: 0 !important;}
-.titlebar-spacer[type="post-tabs"] { width: 0 !important; }
+.titlebar-spacer[type="post-tabs"] { width: 10px !important; }
 #TabsToolbar {      
 margin-bottom: 0px !important;
 margin-top: 0px !important;
@@ -75,3 +70,5 @@ background: palegreen !important; /* active tab color*/
 /* urlbar buttons */
 #tracking-protection-icon-container { display: none !important; }
 #identity-permission-box { display: none !important; }
+/* tab margin */
+#navigator-toolbox {margin-bottom: -2px;}
