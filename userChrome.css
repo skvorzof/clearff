@@ -72,3 +72,6 @@ background: palegreen !important; /* active tab color*/
 #identity-permission-box { display: none !important; }
 /* tab margin */
 #navigator-toolbox {margin-bottom: -2px;}
+/* extensions, download icon */
+#unified-extensions-button { display: none !important; }
+#downloads-button { display: none !important; }
