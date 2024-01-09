@@ -75,3 +75,6 @@ background: palegreen !important; /* active tab color*/
 /* extensions, download icon */
 #unified-extensions-button { display: none !important; }
 #downloads-button { display: none !important; }
+/* urlbar */
+#urlbar-background,#urlbar { border-radius: 0 !important;}
+#urlbar { margin: 0 0 -2px -2px ;}
